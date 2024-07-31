@@ -79,7 +79,7 @@ function Dashboard() {
         notify("todo created, refresh to see changes","default")
       })
       .catch(() => {
-        notify("Failed to create Network problem","error")
+        notify("NETWORK ISSUE","error")
       });
   };
 
@@ -101,7 +101,8 @@ function Dashboard() {
   const [index, setIndex] = useState(null);
   const [id, setId] = useState("");
 
-  const handleUpdate = async () => {
+  const handleUpdate = async (e) => {
+    e.preventDefault()
     await axios
       .put(`${window.location.origin}/api/v2/updateTask/${id}`, todo)
       .then(() => {
