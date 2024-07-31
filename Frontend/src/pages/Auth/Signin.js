@@ -38,7 +38,7 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post(`https://the-daily-todo.vercel.app/api/v1/login`, credentials)
+      .post(`https://the-daily-todo.vercel.app/auth/login/api/v1/login`, credentials)
       .then((res) => {
         if (res.data.message == "User not found, or please signup first") {
           notify(res.data.message, "error");
