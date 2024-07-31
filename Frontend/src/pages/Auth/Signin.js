@@ -49,8 +49,8 @@ export default function Login() {
           notify("Login success","success")
         }
       })
-      .catch((error) => {
-        console.log(error)
+      .catch(() => {
+        notify("NETWORK ANOMALY","error")
       });
   };
 
