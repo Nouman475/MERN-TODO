@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e6a5dc3.css",
+    "main.js": "/static/js/main.e672e042.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/liz-gross-signup.gif": "/static/media/liz-gross-signup.a0b339e35ccfe1467cea.gif",
+    "index.html": "/index.html",
+    "main.5e6a5dc3.css.map": "/static/css/main.5e6a5dc3.css.map",
+    "main.e672e042.js.map": "/static/js/main.e672e042.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e6a5dc3.css",
+    "static/js/main.e672e042.js"
+  ]
+}
