@@ -17,3 +17,7 @@ app.get("/", (req, res) => {
 app.use("/api/v1", auth);
 app.use("/api/v2", list);
 
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server Started on port ${port}`);
+});
